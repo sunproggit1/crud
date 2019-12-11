@@ -2,7 +2,7 @@
 define('SERVERNAME', 'localhost');
 define('USERNAME', 'root');
 define('PASSWORD', '');
-fine('DBNAME', 'db_store');
+define('DBNAME', 'db_store');
 
 $link = mysqli_connect(SERVERNAME, USERNAME, PASSWORD, DBNAME);
 if($link === false){
